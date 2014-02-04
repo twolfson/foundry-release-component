@@ -9,7 +9,7 @@ describe('Setting the version', function () {
   describe('in a component module', function () {
     var fixtureDir = fixtureUtils.fixtureDir('component');
     before(function release (done) {
-      bowerRelease.setVersion({
+      componentRelease.setVersion({
         version: '0.1.0',
         message: 'Release 0.1.0',
         description: null
